@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(0, 0, 0);
+}
+
+.container{
+    position: relative;
+    display: flex;
+    gap: 60px;
+}
+
+.container .box{
+    background: #07520d;
+    position: relative;
+    width: 570px;
+    height: 370px ;
+    border-radius: 5px;
+    background-size: cover;
+}
